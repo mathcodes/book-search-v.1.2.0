@@ -1,0 +1,38 @@
+.nav, .navbar, .sticky{
+    height:60px;
+    display:inline-block;
+
+}
+
+.navbar{
+    position: sticky;  
+    border-bottom: 3px solid orange;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a.active {
+   
+    background-color: #111;
+  }
+
+  .navbar{
+    position: sticky; 
+    border-bottom: 3px solid goldenrod;
+    z-index: 20;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a.active {
+   
+    background-color: #111;
+  }

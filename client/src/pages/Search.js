@@ -37,7 +37,7 @@ const Search = () => {
     <Container>
       <Row>
         <Container fluid>
-          <h3>Book Search</h3>
+          <h4>Book Search</h4>
           <Input
             placeholder="Search Google Books"
             onChange={handleInputChange}
@@ -117,7 +117,7 @@ const Search = () => {
               })}
             </div>
           ) : (
-              <h3>No Results to Display</h3>
+              <h5>No Results to Display</h5>
             )}
         </Container>
       </Row>

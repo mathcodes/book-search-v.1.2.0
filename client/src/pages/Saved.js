@@ -37,7 +37,7 @@ const Saved = () => {
   return (
     <Container fluid>
       <Col size="md-2">
-            <Link to="/">← Back to Authors</Link>
+            <Link to="/">← Back to Search</Link>
           </Col>
       <Row>
         {books.length ? (
@@ -93,7 +93,7 @@ const Saved = () => {
           </div>
         ) : (
           <div style={{ padding: '20px', textAlign: 'center' }}>
-            <h3>No Results to Display</h3>
+            <h5>No Results to Display</h5>
           </div>
         )}
       </Row>

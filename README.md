@@ -4,7 +4,6 @@
 
 ![Project Image](https://github.com/mathcodes/Book-Search/blob/master/booksearch.png?raw=true)
 
-
 The goal was to create a new React-based Google Books Search app. On the frontend, this involved creating React components, working with helper/util functions, and utilizing React lifecycle methods to query and display books based on user searches. On the server side, it also involved using Node, Express and MongoDB so that users can save books to review or purchase later.
 
 # Table of Contents

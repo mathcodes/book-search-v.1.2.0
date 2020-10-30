@@ -10,6 +10,7 @@ The goal was to create a new React-based Google Books Search app. On the fronten
   * [User Story](#User-Story)
   * [Installation](#Installation)
   * [Deployed](#Deployed)
+  * [Technology](#Technology)
   * [Contributing](#Contributing)
   * [License](#License)
   * [Tests](#License)
@@ -30,7 +31,7 @@ npm run-script deploy
 ## Deployed
 Deployed application in Heroku: [Live App](https://jonsbooksearch.herokuapp.com/)
 
-#### Technologies Used:
+## Technology:
   * MERN
   * MongoDB
   * Mongoose
@@ -38,7 +39,6 @@ Deployed application in Heroku: [Live App](https://jonsbooksearch.herokuapp.com/
   * React
   * Node
   * Axios
-
 
 ## Contributing
 `Pull requests` are welcome. Please use the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md). For all major changes, please `open an issue` beforehand to discuss the changes.

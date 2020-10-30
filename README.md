@@ -43,7 +43,7 @@ Deployed application in Heroku: [Live App](https://jonsbooksearch.herokuapp.com/
 `Pull requests` are welcome. Please use the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md). For all major changes, please `open an issue` beforehand to discuss the changes.
 
 ## License 
-[MIT](https://github.com/mathcodes/Book-Search/blob/master/LICENSE) | Copyright © 2020 Carmen Obied
+[MIT](https://github.com/mathcodes/Book-Search/blob/master/LICENSE) 
 
 ## Tests 
 None are setup yet.

@@ -22,7 +22,7 @@ The goal was to create a new React-based Google Books Search app. On the fronten
 npm install
 cd client/
 npm install
-ccd ..
+cd ..
 npm run-script build
 npm run-script deploy
 ```

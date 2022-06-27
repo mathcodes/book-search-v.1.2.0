@@ -4,10 +4,11 @@ import Saved from "./pages/Saved";
 import Search from "./pages/Search";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
+import "./App.css";
 
-const App = () => (
+const App = () => (<div className="container">
   <Router>
-    <div>
+    
       <Nav />
       <Hero />
         <Switch>
@@ -18,8 +19,8 @@ const App = () => (
             <Saved />
           </Route>
         </Switch>
-    </div>
-  </Router>
+  
+  </Router>  </div>
 );
 
 export default App;

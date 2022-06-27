@@ -1,38 +1,19 @@
-.nav, .navbar, .sticky{
-    height:60px;
-    display:inline-block;
-
+.nav,
+.navbar,
+.sticky {
+  /* display: inline-block; */
 }
 
-.navbar{
-    position: sticky;  
-    border-bottom: 3px solid orange;
-  }
-  
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  .navbar a.active {
-   
-    background-color: #111;
-  }
+.navbar {
+  border: 3px solid orange;
+  /* width:1020px; */
+}
 
-  .navbar{
-    position: sticky; 
-    border-bottom: 3px solid goldenrod;
-    z-index: 20;
-  }
-  
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  .navbar a.active {
-   
-    background-color: #111;
-  }
+.sticky {
+  top: 0;
+  width: 100%;
+}
+
+.navbar a.active {
+  background-color: #111;
+}

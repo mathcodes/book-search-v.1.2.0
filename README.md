@@ -1,7 +1,15 @@
 # Book-Search
-THIS BRANCH IS UNDER MAINTENANCE ATM. 
 
-CHECK BACK SOON FOR A MORE IMPROVED UI AND UX!
+## Future Development Concepts:
+- Backend - MongoDB Atlas - id, rating, title, price, description
+- RATING - initial 0, five empty stars, click to rate and fill stars)
+- Use Local Storage to allows users save books
+- Buttons - saved and ratings
+- API research - what is capable of
+- Modal for preview/save/close
+- Google Meets setup
+
+
 
 ## Contact
 <img src="https://avatars0.githubusercontent.com/u/17928947?v=4" alt="Github profile image" width="80px" height="80px" />

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import API from "../utils/API";
-import { Row, Container } from "../components/Grid";
+import { Rows, ContainerCust } from "../components/Grid";
 import { Input, FormBtn } from "../components/Form";
+import { Button, ButtonToolbar, Card, Col, Row } from "react-bootstrap";
 
 const Search = () => {
   // Setting our component's initial state
@@ -24,7 +25,7 @@ const Search = () => {
       })
       .catch((err) => console.log(err));
   };
-  
+
   const handleSaveBook = (e, data) => {
     e.preventDefault();
 
@@ -34,19 +35,19 @@ const Search = () => {
   };
 
   return (
-    <Container>
-      <Row>
-        <Container fluid>
+    <ContainerCust>
+      <Rows>
+        <ContainerCust fluid>
           <h4>Book Search</h4>
           <Input
             placeholder="Search Google Books"
             onChange={handleInputChange}
           />
           <FormBtn onClick={handleFormSubmit}>Search</FormBtn>
-        </Container>
-      </Row>
-      <Row>
-        <Container>
+        </ContainerCust>
+      </Rows>
+      <Rows>
+        <ContainerCust>
           {books.length ? (
             <div
               className="row row-cols-3"
@@ -70,9 +71,9 @@ const Search = () => {
                       alt="..."
                     ></img>
                     <div className="card-body">
-                      <h5 className="card-title">
-                        {book.volumeInfo.title}
+                      <h5 className="card-title"><span style={{ fontWeight: "bold" }}>{book.volumeInfo.title}</span>
                       </h5>
+                      <h6 className="card-title">Published by:<span style={{ color: "green" }}> {book.volumeInfo.authors}</span></h6>
                       <p className="card-text">
                         {book.volumeInfo.description
                           ? book.volumeInfo.description.length >=
@@ -84,7 +85,9 @@ const Search = () => {
                             : book.volumeInfo.description
                           : "No Description Available"} ...
                       </p>
-                      <button
+
+
+                      <Button
                         className="btn btn-dark"
                         onClick={(e) =>
                           handleSaveBook(e, {
@@ -93,7 +96,7 @@ const Search = () => {
                               ? book.volumeInfo.imageLinks
                                 .thumbnail
                               : "http://icons.iconarchive.com/icons/paomedia/small-n-flat/128/book-icon.png",
-                            author: book.volumeInfo.authors[0],
+                            author: book.volumeInfo.authors ? book.volumeInfo.authors[0] : "No Author Available",
                             description:
                               book.volumeInfo.description,
                             link: book.volumeInfo.infoLink,
@@ -101,7 +104,7 @@ const Search = () => {
                         }
                       >
                         SAVE
-                        </button><p></p>
+                      </Button>
                       <a
                         href={book.volumeInfo.infoLink}
                         rel="noopener noreferrer"
@@ -109,19 +112,20 @@ const Search = () => {
                         className="card-link"
                         style={{ padding: '0px', textAlign: 'center' }}
                       >
-                        Purchase
-                        </a>
+                        <Button variant="primary">Purchase</Button>
+
+                      </a>
                     </div>
                   </div>
                 );
               })}
             </div>
           ) : (
-              <h5>No Results to Display</h5>
-            )}
-        </Container>
-      </Row>
-    </Container>
+            <h5>No Results to Display</h5>
+          )}
+        </ContainerCust>
+      </Rows>
+    </ContainerCust>
   );
 };
 export default Search;

@@ -1,14 +1,14 @@
 import React from "react";
 
-// Exporting the Container, Row, and Col components from this file
+// Exporting the ContainerCust, Row, and Col components from this file
 
-// This Container component allows us to use a bootstrap container without worrying about class names
-export const Container = ({ fluid, children }) => {
-  return <div className={`container${fluid ? "-fluid" : ""}`}>{children}</div>;
+// This ContainerCust component allows us to use a bootstrap containerCust without worrying about class names
+export const ContainerCust = ({ fluid, children }) => {
+  return <div className={`containerCust${fluid ? "-fluid" : ""}`}>{children}</div>;
 }
 
 // This Row component lets us use a bootstrap row without having to think about class names
-export const Row = ({ fluid, children }) => {
+export const Rows = ({ fluid, children }) => {
   return <div className={`row${fluid ? "-fluid" : ""}`}>{children}</div>;
 }
 

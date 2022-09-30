@@ -5,14 +5,6 @@ const booksController = require("../../controllers/booksController");
 router.route("/")
   .get(booksController.findAll)
   .post(booksController.create);
-// router.route("/")
-//     .get( (req, res) => {
-//       booksController.findAll(req, res);
-//   })
-//     // .post(booksController.create);
-//     .post( (req, res) => {
-//         booksController.create(req, res);
-//     }); 
 
 // Matches with "/api/books/:id"
 router.route("/:id")

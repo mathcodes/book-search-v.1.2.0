@@ -5,6 +5,8 @@ const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+require('dotenv').config()
+
 if (app.get('env') === 'development') { require('dotenv').config(); }
 
 // MIDDLEWARE

@@ -6,9 +6,12 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 require('dotenv').config()
+console.log("line 9 server.js", process.env) 
+console.log("line 10 server.js", process.env.MONGODB_URI) 
 
 if (app.get('env') === 'development') { require('dotenv').config(); }
-
+console.log("line 13 server.js", process.env) 
+console.log("line 14 server.js", process.env.MONGODB_URI) 
 // MIDDLEWARE
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());

@@ -13,7 +13,7 @@ export const Input = props => {
 export const TextArea = props => {
   return (
     <div className="form-group">
-      <textarea className="form-control" rows="20" {...props} />
+      <textarea className="form-control" rows="15" {...props} />
     </div>
   );
 }

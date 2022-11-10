@@ -21,7 +21,7 @@ const Saved = () => {
   // Loads all books
   useEffect(() => {
     loadSavedBooks();
-    console.log(books);
+    console.log("books: ", books);
   }, [books]);
 
   // Deletes a book from the database with a given id, then reloads books from the db

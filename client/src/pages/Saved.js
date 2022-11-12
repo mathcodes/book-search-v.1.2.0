@@ -21,7 +21,7 @@ const Saved = () => {
   // Loads all books
   useEffect(() => {
     loadSavedBooks();
-    console.log(books);
+    console.log("books: ", books);
   }, [books]);
 
   // Deletes a book from the database with a given id, then reloads books from the db
@@ -76,7 +76,7 @@ const Saved = () => {
                         className='btn btn-dark'
                         onClick={() => handleDeleteBook(book._id)}
                       >
-                        Delete
+                        DELETE
                       </button>
                       <a
                         href={book.link}

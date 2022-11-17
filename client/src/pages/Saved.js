@@ -76,7 +76,7 @@ const Saved = () => {
                         className='btn btn-dark'
                         onClick={() => handleDeleteBook(book._id)}
                       >
-                        Delete
+                        DELETE
                       </button>
                       <a
                         href={book.link}

@@ -1,20 +1,19 @@
 # Book-Search
 
-![Project license badge](https://img.shields.io/badge/license-MIT-blue)
+![Project license badge](https://img.shields.io/badge/license-MIT-blue) ![React Badge](https://img.shields.io/badge/Library-React-teal) ![Project license badge](https://img.shields.io/badge/Language-Javascript-yellow) ![Database](https://img.shields.io/badge/DB-MongoDB-limegreen) ![Project license badge](https://img.shields.io/badge/Middleware-Mongoose-green) ![Environment](https://img.shields.io/badge/Environment-NodeJS-limegreen) ![HTTP Client](https://img.shields.io/badge/HTTP_Client-Axios-black) 
 
 ![Project Image](https://github.com/mathcodes/Book-Search/blob/master/booksearch.png?raw=true)
 
 The goal is to create a new React-based Google Books Search app. On the frontend, this involved creating React components, working with helper/util functions, and utilizing React lifecycle methods to query and display books based on user searches. On the server side, it also involved using Node, Express and MongoDB so that users can save books to review or purchase later.
 
 # Table of Contents
-  * [Installation](#Installation)
-  * [Deployed](#Deployed)
-  * [Technology](#Technology)
-  * [Future](#Future_Development)
-  * [Contributing](#Contributing)
-  * [License](#License)
-  * [Tests](#License)
-  * [Questions](#Questions)
+  * [Installation](#installation)
+  * [Deployed](#deployed)
+  * [Technology](#technology)
+  * [Future Development](#future_development)
+  * [Contributing](#contributing)
+  * [License](#license)
+  * [Contact](#contact)
 
 
 ## Installation
